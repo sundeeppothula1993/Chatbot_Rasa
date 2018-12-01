@@ -1,0 +1,1381 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "definitely no"
+      },
+      {
+        "intent": "deny",
+        "text": "no no"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you loads"
+      },
+      {
+        "intent": "thanks",
+        "text": "tnx"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "Zepo",
+            "entity": "startup"
+          }
+        ],
+        "text": "where is Zepo located?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "couponmachine.in",
+            "entity": "startup"
+          }
+        ],
+        "text": "city of couponmachine.in"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "eKincare",
+            "entity": "startup"
+          }
+        ],
+        "text": "any info on location of eKincare"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Tracxn",
+            "entity": "startup"
+          }
+        ],
+        "text": "do you have location data of Tracxn?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Leverage Edu",
+            "entity": "startup"
+          }
+        ],
+        "text": "Leverage Edu in which city?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Jumbotail",
+            "entity": "startup"
+          }
+        ],
+        "text": "I want info on Jumbotail"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Innoviti",
+            "entity": "startup"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Bangalore",
+            "entity": "city"
+          }
+        ],
+        "text": "Is Innoviti located in Bangalore?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "VDeliver",
+            "entity": "startup"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "Is VDeliver in Hyderabad?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "Autorox.co",
+            "entity": "startup"
+          }
+        ],
+        "text": "location of Autorox.co?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "Design Cafe",
+            "entity": "startup"
+          }
+        ],
+        "text": "place where Design Cafe is located?"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "MObiquest",
+            "entity": "startup"
+          }
+        ],
+        "text": "headquarters of MObiquest"
+      },
+      {
+        "intent": "location_check",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Endless Robotics",
+            "entity": "startup"
+          }
+        ],
+        "text": "Endless Robotics location?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 28,
+            "end": 44,
+            "value": "Endless Robotics",
+            "entity": "startup"
+          }
+        ],
+        "text": "type of funding received by Endless Robotics"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "VDeliver",
+            "entity": "startup"
+          }
+        ],
+        "text": "VDeliver received which funding?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "Leverage Edu",
+            "entity": "startup"
+          }
+        ],
+        "text": "Investment type for Leverage Edu"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Zomato",
+            "entity": "startup"
+          }
+        ],
+        "text": "did Zomato get any funding?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "OneClickWash",
+            "entity": "startup"
+          }
+        ],
+        "text": "what sort of funding did OneClickWash close?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 20,
+            "value": "Endless Robotics",
+            "entity": "startup"
+          }
+        ],
+        "text": "did Endless Robotics receive any type of funding"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "MakeMyTrip",
+            "entity": "startup"
+          }
+        ],
+        "text": "I want to know type of funding closed by MakeMyTrip?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "HelpChat",
+            "entity": "startup"
+          }
+        ],
+        "text": "funding type information for HelpChat?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "HashLearn",
+            "entity": "startup"
+          }
+        ],
+        "text": "did HashLearn receive funding?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 16,
+            "value": "Leverage Edu",
+            "entity": "startup"
+          }
+        ],
+        "text": "did Leverage Edu get any funding?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "OneClickWash",
+            "entity": "startup"
+          }
+        ],
+        "text": "what kind of funding did OneClickWash receive?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "HealthEnablr",
+            "entity": "startup"
+          }
+        ],
+        "text": "what type of funding did HealthEnablr receive"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "Ninjacart",
+            "entity": "startup"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "did Ninjacart receive Seed Funding"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "TheSmartQ",
+            "entity": "startup"
+          },
+          {
+            "start": 22,
+            "end": 36,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "did TheSmartQ receive Private Equity"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "Rooter",
+            "entity": "startup"
+          },
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "did Rooter close Seed Funding???"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "HelpChat",
+            "entity": "startup"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "SeedFunding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "did HelpChat close SeedFunding?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "TheSmartQ",
+            "entity": "startup"
+          },
+          {
+            "start": 19,
+            "end": 32,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "TheSmartQ received Privateequity?"
+      },
+      {
+        "intent": "fundingType_check",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "MakeMyTrip",
+            "entity": "startup"
+          },
+          {
+            "start": 18,
+            "end": 32,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "MakeMyTrip closed Private Equity investment?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "value": "Bangalore",
+            "entity": "city"
+          }
+        ],
+        "text": "Number of startups receiving Seed Funding in Bangalore?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 44,
+            "end": 53,
+            "value": "New Delhi",
+            "entity": "city"
+          }
+        ],
+        "text": "No of companies receiving Private Equity in New Delhi?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          },
+          {
+            "start": 38,
+            "end": 45,
+            "value": "Chennai",
+            "entity": "city"
+          }
+        ],
+        "text": "How many startups got Seed Funding in Chennai?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          },
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "startups receiving Seed Funding in Hyderabad?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "Info on Startup funding in Mumbai?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 35,
+            "end": 47,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "Tell me how many startups received Seed Funding type of funding"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 27,
+            "end": 40,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "How many startups received Privateequity in Mumbai?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "Number of startups who received Seed Funding?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 27,
+            "end": 40,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "How many startups received Privateequity type of funding?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 40,
+            "end": 49,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "Number of startups receiving funding in Hyderabad"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "How many startups got funding in Mumbai?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "Do you have any information on Private Equity funding received?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "Info on funding received in in Mumbai?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "Bangalore",
+            "entity": "city"
+          }
+        ],
+        "text": "How many startups received funding in Bangalore?"
+      },
+      {
+        "intent": "fundingStatus_city",
+        "entities": [
+          {
+            "start": 54,
+            "end": 61,
+            "value": "Chennai",
+            "entity": "city"
+          }
+        ],
+        "text": "Tell me about number of startups receiving funding in Chennai?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "value": "Bangalore",
+            "entity": "city"
+          },
+          {
+            "start": 58,
+            "end": 62,
+            "value": "2017",
+            "entity": "year"
+          }
+        ],
+        "text": "Average Seed Funding received by startups in Bangalore in 2017?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Mumbai",
+            "entity": "city"
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "value": "2016",
+            "entity": "year"
+          }
+        ],
+        "text": "what is avg Privateequity closed in Mumbai for the year 2016?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "2017",
+            "entity": "year"
+          },
+          {
+            "start": 29,
+            "end": 43,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 71,
+            "end": 80,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "In 2017 what is the average  Private Equity funding amount received in Hyderabad"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "what is average Seed Funding received by startups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "Avg amount of Private Equity funding closed by startups"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "text": "what is the average funding received by strtups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "text": "avg amount of funding closed by startups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 4,
+            "end": 17,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "avg Privateequity by startups in Mumbai?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "Average funding received by strtups in Hyderabad?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Pune",
+            "entity": "city"
+          }
+        ],
+        "text": "In Pune what is the average amount of funding for startups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "Mumbai avg. startup funding amounts?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "text": "Do you have information about funding status for startups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "what is avg Privateequity closed in Mumbai?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "value": "Pune",
+            "entity": "city"
+          }
+        ],
+        "text": "average amount of funding for Pune?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 51,
+            "end": 60,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "what is the average funding received by strtups in Hyderabad?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Pune",
+            "entity": "city"
+          }
+        ],
+        "text": "In Pune what is the average funding amount for strtups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "2017",
+            "entity": "year"
+          },
+          {
+            "start": 52,
+            "end": 61,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "In 2017 what is the avg. funding amount received in Hyderabad?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Mumbai",
+            "entity": "city"
+          },
+          {
+            "start": 46,
+            "end": 50,
+            "value": "2015",
+            "entity": "year"
+          }
+        ],
+        "text": "average funding amount for Mumbai in the year 2015?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "2017",
+            "entity": "year"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Chennai",
+            "entity": "city"
+          }
+        ],
+        "text": "In 2017 for Chennai what is the average funding?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "Privateequity",
+            "entity": "fundingType"
+          },
+          {
+            "start": 32,
+            "end": 36,
+            "value": "2015",
+            "entity": "year"
+          }
+        ],
+        "text": "average Privateequity closed in 2015?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "2015",
+            "entity": "year"
+          },
+          {
+            "start": 31,
+            "end": 45,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "what is the avg. funding  2015 Private Equity?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "2017",
+            "entity": "year"
+          }
+        ],
+        "text": "In the year 2017 what is the average funding received by startups?"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 47,
+            "end": 51,
+            "value": "2017",
+            "entity": "year"
+          }
+        ],
+        "text": "what is the avg. funding closed by startups in 2017"
+      },
+      {
+        "intent": "AvgFunding_query",
+        "entities": [
+          {
+            "start": 61,
+            "end": 67,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "I want to know about average funding received by startups in Mumbai?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Endless Robotics",
+            "entity": "startup"
+          }
+        ],
+        "text": "I am asking about Endless Robotics"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "TheSmartQ",
+            "entity": "startup"
+          }
+        ],
+        "text": "TheSmartQ"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "HashLearn",
+            "entity": "startup"
+          }
+        ],
+        "text": "HashLearn"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Zomato",
+            "entity": "startup"
+          }
+        ],
+        "text": "Zomato"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2017",
+            "entity": "year"
+          }
+        ],
+        "text": "2017"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2015",
+            "entity": "year"
+          }
+        ],
+        "text": "2015"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2016",
+            "entity": "year"
+          }
+        ],
+        "text": "2016"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "New Delhi",
+            "entity": "city"
+          }
+        ],
+        "text": "New Delhi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Swiggy",
+            "entity": "startup"
+          }
+        ],
+        "text": "Swiggy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "MakeMyTrip",
+            "entity": "startup"
+          }
+        ],
+        "text": "MakeMyTrip"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bangalore",
+            "entity": "city"
+          }
+        ],
+        "text": "Bangalore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mumbai",
+            "entity": "city"
+          }
+        ],
+        "text": "Mumbai"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "city"
+          }
+        ],
+        "text": "Chennai"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Hyderabad",
+            "entity": "city"
+          }
+        ],
+        "text": "Hyderabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Gurgaon",
+            "entity": "city"
+          }
+        ],
+        "text": "Gurgaon"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Pune",
+            "entity": "city"
+          }
+        ],
+        "text": "Pune"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Seed Funding",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "Seed Funding"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Private Equity",
+            "entity": "fundingType"
+          }
+        ],
+        "text": "Private Equity"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

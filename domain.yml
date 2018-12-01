@@ -1,0 +1,72 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thanks
+  - location_check
+  - fundingType_check
+  - fundingStatus_city
+  - AvgFunding_query
+  - inform
+
+slots:
+  startup:
+    type: text
+  city:
+    type: text
+  fundingType:
+    type: text
+  year:
+    type: text
+
+entities:
+  - startup
+  - city
+  - fundingType
+  - year
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_sure
+  - utter_ok
+  - utter_anymore
+  - utter_smiley
+  - utter_np
+  - utter_what_city
+  - utter_what_fundingType
+  - utter_which_year
+  - utter_default
+  - action_get_results
+  - action_check_location
+  - action_check_fundingType
+  - action_check_avgFunding
+  - action_check_NoOfStartups
+  - action_default_fallback
+
+
+templates:
+  utter_greet:
+    - text: "RASA: Hello! Are you looking for any info about Indian Startups"
+    - text: "RASA: Hey!! Do you have any questions for me about Indian Startups?"
+  utter_goodbye:
+    - text: "RASA: Bye! Comeback if want to know more about Indian Startup space! :) "
+  utter_sure:
+    - text: "RASA: Are you sure?"
+  utter_ok:
+    - text: "RASA: OK"
+  utter_np:
+    - text: "RASA: No Problem"
+  utter_what_city:
+    - text: "RASA: What city?"
+  utter_which_year:
+    - text: "RASA: Which year?"
+  utter_what_fundingType:
+    - text: "RASA: What type of funding you are looking for?"
+  utter_smiley:
+    - text: "RASA: Have a Nice day :)"
+  utter_anymore:
+    - text: "RASA: You have any other questions about Indian Startups?"
+  utter_default:
+    - text: "RASA: Sorry, I didn’t understand that. Can you please ask any other question?"

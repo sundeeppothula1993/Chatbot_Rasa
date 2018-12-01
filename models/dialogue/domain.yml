@@ -1,0 +1,85 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_sure
+- utter_ok
+- utter_anymore
+- utter_smiley
+- utter_np
+- utter_what_city
+- utter_what_fundingType
+- utter_which_year
+- utter_default
+- action_get_results
+- action_check_location
+- action_check_fundingType
+- action_check_avgFunding
+- action_check_NoOfStartups
+- action_default_fallback
+config:
+  store_entities_as_slots: true
+entities:
+- startup
+- city
+- fundingType
+- year
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- thanks:
+    use_entities: true
+- location_check:
+    use_entities: true
+- fundingType_check:
+    use_entities: true
+- fundingStatus_city:
+    use_entities: true
+- AvgFunding_query:
+    use_entities: true
+- inform:
+    use_entities: true
+slots:
+  city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  fundingType:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  startup:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  year:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_anymore:
+  - text: 'RASA: You have any other questions about Indian Startups?'
+  utter_default:
+  - text: 'RASA: Sorry, I didn’t understand that. Can you please ask any other question?'
+  utter_goodbye:
+  - text: 'RASA: Bye! Comeback if want to know more about Indian Startup space! :) '
+  utter_greet:
+  - text: 'RASA: Hello! Are you looking for any info about Indian Startups'
+  - text: 'RASA: Hey!! Do you have any questions for me about Indian Startups?'
+  utter_np:
+  - text: 'RASA: No Problem'
+  utter_ok:
+  - text: 'RASA: OK'
+  utter_smiley:
+  - text: 'RASA: Have a Nice day :)'
+  utter_sure:
+  - text: 'RASA: Are you sure?'
+  utter_what_city:
+  - text: 'RASA: What city?'
+  utter_what_fundingType:
+  - text: 'RASA: What type of funding you are looking for?'
+  utter_which_year:
+  - text: 'RASA: Which year?'
